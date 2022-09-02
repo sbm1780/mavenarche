@@ -1,0 +1,100 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< archetype.it:basic-project >---------------------
+[INFO] Building basic-project 0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ basic-project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 4 resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ basic-project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to C:\Users\sbhusanm\Documents\OMS_Archetypes\custom-oms-archetype\target\test-classes\projects\it-basic\project\basic-project\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ basic-project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\Users\sbhusanm\Documents\OMS_Archetypes\custom-oms-archetype\target\test-classes\projects\it-basic\project\basic-project\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ basic-project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to C:\Users\sbhusanm\Documents\OMS_Archetypes\custom-oms-archetype\target\test-classes\projects\it-basic\project\basic-project\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ basic-project ---
+[INFO] Surefire report directory: C:\Users\sbhusanm\Documents\OMS_Archetypes\custom-oms-archetype\target\test-classes\projects\it-basic\project\basic-project\target\surefire-reports
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running it.pkg.AppApplicationTest
+18:31:07.604 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:31:07.612 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:31:07.643 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [it.pkg.AppApplicationTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:31:07.652 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.pkg.AppApplicationTest], using SpringBootContextLoader
+18:31:07.656 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [it.pkg.AppApplicationTest]: class path resource [it/pkg/AppApplicationTest-context.xml] does not exist
+18:31:07.656 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [it.pkg.AppApplicationTest]: class path resource [it/pkg/AppApplicationTestContext.groovy] does not exist
+18:31:07.656 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [it.pkg.AppApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:31:07.657 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [it.pkg.AppApplicationTest]: AppApplicationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:31:07.758 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [it.pkg.AppApplicationTest]
+18:31:07.804 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\sbhusanm\Documents\OMS_Archetypes\custom-oms-archetype\target\test-classes\projects\it-basic\project\basic-project\target\classes\it\pkg\App.class]
+18:31:07.805 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration it.pkg.App for test class it.pkg.AppApplicationTest
+18:31:07.882 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [it.pkg.AppApplicationTest]: using defaults.
+18:31:07.883 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+18:31:07.898 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@696f0212, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5733f295, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1c3146bc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@56c698e3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@47a86fbb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@f478a81, org.springframework.test.context.transaction.TransactionalTestExecutionListener@19553973, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7bb6ab3a, org.springframework.test.context.event.EventPublishingTestExecutionListener@7fe7c640, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4c4748bf, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7ce97ee5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@32c8e539, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@73dce0e6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5a85c92, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@32811494]
+18:31:07.902 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@e98770d testClass = AppApplicationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1ae67cad testClass = AppApplicationTest, locations = '{}', classes = '{class it.pkg.App}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@239105a8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1df8b5b8, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5f77d0f9, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@1cd629b3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4e07b95f, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1725dc0f], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.1)
+
+2022-09-02 18:31:08.522  INFO 23984 --- [           main] it.pkg.AppApplicationTest                : Starting AppApplicationTest using Java 11.0.14 on inlen8520017415 with PID 23984 (started by sbhusanm in C:\Users\sbhusanm\Documents\OMS_Archetypes\custom-oms-archetype\target\test-classes\projects\it-basic\project\basic-project)
+2022-09-02 18:31:08.524  INFO 23984 --- [           main] it.pkg.AppApplicationTest                : No active profile set, falling back to 1 default profile: "default"
+2022-09-02 18:31:09.603  INFO 23984 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-02 18:31:09.646  INFO 23984 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-09-02 18:31:10.316  INFO 23984 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-02 18:31:10.377  INFO 23984 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-09-02 18:31:10.607  INFO 23984 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-02 18:31:11.047  INFO 23984 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-02 18:31:11.354  INFO 23984 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-02 18:31:11.387  INFO 23984 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: create table employee (id integer generated by default as identity, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (id))
+2022-09-02 18:31:12.227  INFO 23984 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-02 18:31:12.237  INFO 23984 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-02 18:31:12.924  WARN 23984 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-02 18:31:13.533  INFO 23984 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-09-02 18:31:14.334  INFO 23984 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-09-02 18:31:14.432  INFO 23984 --- [           main] it.pkg.AppApplicationTest                : Started AppApplicationTest in 6.492 seconds (JVM running for 7.563)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.14 s - in it.pkg.AppApplicationTest
+[INFO] Running it.pkg.AppTests
+2022-09-02 18:31:14.707  INFO 23984 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [it.pkg.AppTests], using SpringBootContextLoader
+2022-09-02 18:31:14.708  INFO 23984 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [it.pkg.AppTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-09-02 18:31:14.708  INFO 23984 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [it.pkg.AppTests]: AppTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-09-02 18:31:14.712  INFO 23984 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration it.pkg.App for test class it.pkg.AppTests
+2022-09-02 18:31:14.715  INFO 23984 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-09-02 18:31:14.716  INFO 23984 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7789526e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5fafd099, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@580e01cd, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e9a10e9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@233d2b76, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2370c90, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2a9f7572, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@644c3590, org.springframework.test.context.event.EventPublishingTestExecutionListener@2e60d4f4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@14091e24, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@45ecdd32, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@408980aa, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@68e62b3b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@34c2e03d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@17e4beda]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in it.pkg.AppTests
+2022-09-02 18:31:14.845  INFO 23984 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-02 18:31:14.853  INFO 23984 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-02 18:31:14.871  INFO 23984 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.2:jar (default-jar) @ basic-project ---
+[INFO] Building jar: C:\Users\sbhusanm\Documents\OMS_Archetypes\custom-oms-archetype\target\test-classes\projects\it-basic\project\basic-project\target\basic-project-0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.759 s
+[INFO] Finished at: 2022-09-02T18:31:16+05:30
+[INFO] ------------------------------------------------------------------------

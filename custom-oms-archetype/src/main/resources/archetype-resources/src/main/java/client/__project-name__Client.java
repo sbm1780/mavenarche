@@ -1,4 +1,4 @@
-package ${package}.controller;
+package ${package}.client;
  
 
 import java.util.List;
@@ -18,7 +18,7 @@ import ${package}.service.${project-name}Service;
 
 @RestController
 @RequestMapping("/api")
-public class ${project-name}Controller {
+public class ${project-name}Client {
 
 	@Autowired
 	private ${project-name}Service service;

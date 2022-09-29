@@ -1,4 +1,4 @@
-package ${package}.controller;
+package ${package}.client;
 
 //import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -6,6 +6,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 //@RunWith(SpringRunner.class)
 @SpringBootTest
-public class ${project-name}ControllerTest {
+public class ${project-name}ClientTest {
 	
 }

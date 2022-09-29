@@ -2,8 +2,8 @@
 <archetype-descriptor name="basic">
  
     <requiredProperties>
-        <requiredProperty key="project-name" />
-        <requiredProperty key="property-file-name-qa">
+         <requiredProperty key="project-name" />
+       <!-- <requiredProperty key="property-file-name-qa">
             <defaultValue>application-qa</defaultValue>
         </requiredProperty>
          <requiredProperty key="property-file-name-dev">
@@ -11,7 +11,7 @@
         </requiredProperty>
          <requiredProperty key="property-file-name-prod">
             <defaultValue>application-prod</defaultValue>
-        </requiredProperty>
+        </requiredProperty> -->
  
         <!--JUnit version to use in generated project -->
         <requiredProperty key="junit.jupiter.version">
